@@ -1,0 +1,62 @@
+GDRE Tools v2.0.0-beta.1
+Windows 10.0.19045, NVIDIA GeForce RTX 3070, opengl3
+Opening file: C:/Program Files (x86)/Steam/steamapps/common/YourOnlyMoveIsHUSTLE/YourOnlyMoveIsHUSTLE.pck
+Multiple passing candidates for bytecode version 13:
+3.5.0-stable (a7aad78), 3.2.0-stable (5565f55)
+Choosing only one that matches engine version: 3.5.0-stable (a7aad78).
+Loaded 2434 imported files
+Detected Engine Version: 3.5.1
+Detected Bytecode Revision: 3.5.0-stable (a7aad78)
+Verified 5214 files, no errors detected!
+Extracted 5214 files, no errors detected!
+Recreating plugin configs...
+WARNING: Mesh uses old surface format, which is deprecated (and loads slower). Consider re-importing or re-saving the scene. Path: "res://.import/projectile_shape_1.obj-2075ac9f747bbe89405a5ef4f516b397.mesh"
+   at: FakeMesh::_set (modules\gdsdecomp\compat\fake_mesh.cpp:447)
+ERROR: Error reading file: res://ui/CSS/CharacterSelectBase.gd
+   at: FakeGDScript::_reload_from_file (modules\gdsdecomp\compat\fake_gdscript.cpp:54)
+ERROR: Error loading script: res://ui/CSS/CharacterSelectBase.gd
+   at: ResourceFormatGDScriptLoader::custom_load (modules\gdsdecomp\compat\script_loader.cpp:77)
+Saved project config.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     461
+Failed scripts:                         0
+Imported resources for export session:  2434
+Successfully converted:                 2433
+Lossy:                                  2
+Rewrote metadata:                       2
+Non-importable conversions:             0
+Not converted:                          1
+Failed conversions:                     0
+-------------
+
+------
+
+The following files were not converted because support has not been implemented yet:
+res://.import/character.dae-d0811ca915fae73b20c90e1040b6e2c7.scn ( importer: scene, type: PackedScene, format: v3.x scene) to character.dae
+
+
+
+---------------------------------IMPORTANT NOTES----------------------------------
+
+
+Unsupported Resources Detected:
+The following resource types were detected in the project that conversion is not implemented for yet.
+See Export Report to see which resources were not exported.
+You will still be able to edit the project in the editor regardless.
+ - Resource Type: PackedScene Format: v3.x scene Importer: scene
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 3.5.1 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+
