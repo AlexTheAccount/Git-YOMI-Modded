@@ -857,14 +857,6 @@ default_dash_speed
 boulder_projectile"
 damages_own_team = true
 throw_positions = {
-ExtResource( 326 ): {
-"x": 40,
-"y": -10
-},
-ExtResource( 320 ): {
-"x": 62,
-"y": -126
-},
 ExtResource( 321 ): {
 "x": 60,
 "y": -124
@@ -873,13 +865,21 @@ ExtResource( 323 ): {
 "x": 62,
 "y": -128
 },
-ExtResource( 322 ): {
-"x": 40,
-"y": -28
-},
 ExtResource( 325 ): {
 "x": 58,
 "y": -78
+},
+ExtResource( 326 ): {
+"x": 40,
+"y": -10
+},
+ExtResource( 320 ): {
+"x": 62,
+"y": -126
+},
+ExtResource( 322 ): {
+"x": 40,
+"y": -28
 }
 }
 enable_extra_aesthetic_hitstop = true
@@ -1955,14 +1955,6 @@ anim_length = 70
 sfx = ExtResource( 217 )
 sfx_tick = 10
 throw_positions = {
-ExtResource( 326 ): {
-"x": 40,
-"y": -10
-},
-ExtResource( 320 ): {
-"x": 62,
-"y": -126
-},
 ExtResource( 321 ): {
 "x": 60,
 "y": -124
@@ -1971,13 +1963,21 @@ ExtResource( 323 ): {
 "x": 62,
 "y": -128
 },
-ExtResource( 322 ): {
-"x": 40,
-"y": -28
-},
 ExtResource( 325 ): {
 "x": 58,
 "y": -78
+},
+ExtResource( 326 ): {
+"x": 40,
+"y": -10
+},
+ExtResource( 320 ): {
+"x": 62,
+"y": -126
+},
+ExtResource( 322 ): {
+"x": 40,
+"y": -28
 }
 }
 type = 1
